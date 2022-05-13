@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+}
+body{
+  background: #ccc;
+}
+.container{
+display: flex;
+height: 100vh;
+justify-content: space-around;
+flex-wrap: wrap;
+
+}
+
+.card{
+  height: 200px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+ border: 2px solid #6d6d6d;
+ box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.2);
+ border-radius: 7px;
+ margin: 5px;
+ background: white;
+}
+.card:hover{
+  border: 2px solid #6d6d6d;
+  box-shadow: 7px 7px 7px 1px rgba(0, 0, 0, 0.2);
+}
+
+.nome{
+  display:flex;
+  justify-content: center;
+}
+
+.imagem{
+
+}
+
+.level{
+  display:flex;
+  justify-content: center;
+}
